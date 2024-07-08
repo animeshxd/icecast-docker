@@ -1,7 +1,7 @@
 
 services:
   icecast:
-    image: icecast
+    # image: icecast
     build: ./
     restart: always
     ports:
