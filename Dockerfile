@@ -1,8 +1,8 @@
-FROM debian:latest
+FROM debian:unstable-slim
 
 RUN apt update
 
-RUN apt upgrade
+RUN apt upgrade -y
 
 RUN apt install -y icecast2 sudo --no-install-recommends
 
